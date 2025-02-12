@@ -32,7 +32,7 @@ public class principal {
     public static void ex02(){
         Scanner sc = new Scanner(System.in);
         int[] vet = new int[6];
-        System.out.println("<< Listando um vetor >>");
+        System.out.println("\n\n<< Listando um vetor >>");
 
         for (int i = 0; i < 6; i++){
             System.out.printf("Entre com o número %d:\n",i+1);
@@ -50,7 +50,7 @@ public class principal {
         int[] vet = new int[6];
         int i = 0;
 
-        System.out.println("<< Listando um vetor em ordem inversa >>");
+        System.out.println("\n\n<< Listando um vetor em ordem inversa >>");
         while (i < 6){
             System.out.printf("Entre com o número %d\n", i+1);
             vet[i] = sc.nextInt();
@@ -70,7 +70,7 @@ public class principal {
         int[] par = new int[6];
         int i = 0;
 
-        System.out.println("<< Listando um vetor de números pares >>");
+        System.out.println("\n\n<< Listando um vetor de números pares >>");
         while (i < 6){
             System.out.printf("Entre com o número %d\n", i+1);
             par[i] = ler.nextInt();
@@ -103,7 +103,7 @@ public class principal {
         float med;
         mai = men = soma = 0;
 
-        System.out.println("<< 5 valores >>");
+        System.out.println("\n\n<< 5 valores >>");
         for (int i = 0; i < 5; i++){
             System.out.printf("Entre com o número %d:\n", i+1);
             vet[i] = ler.nextInt();
@@ -133,7 +133,7 @@ public class principal {
         float med;
         mai = men = soma = 0;
 
-        System.out.println("<< 5 valores >>");
+        System.out.println("\n\n<< 5 valores >>");
         for (int i = 0; i < 5; i++){
             System.out.printf("Entre com o número %d:\n", i+1);
             vet[i] = ler.nextInt();
@@ -166,7 +166,7 @@ public class principal {
         int[] nota = new int[5];
         int normaliza;
 
-        System.out.println("<<Normalizando as notas>>");
+        System.out.println("\n\n<<Normalizando as notas>>");
         for (int i = 0; i < 5; i++){
             System.out.printf("Entre com a nota do aluno %d: \n", i+1);
             nota[i] = ler.nextInt();
@@ -189,7 +189,7 @@ public class principal {
         soma = 0;
         media = desvio = somaDes = 0;
 
-        System.out.println("<< Média e desvio-padrão >>");
+        System.out.println("\n\n<< Média e desvio-padrão >>");
         for (int i = 0; i < 5; i++) {
             System.out.printf("Digite o valor %d: \n", i+1);
             valor[i] = ler.nextInt();
@@ -209,7 +209,7 @@ public class principal {
         Scanner ler = new Scanner(System.in);
         int n, soma;
         soma = 0;
-        System.out.println("<< Média de n alunos. Máximo 100 alunos >>\nEntre com o número de alunos:");
+        System.out.println("\n\n<< Média de n alunos. Máximo 100 alunos >>\nEntre com o número de alunos:");
         n = ler.nextInt();
 
         if (n > 100){
@@ -243,7 +243,7 @@ public class principal {
         int i, j, k;
         i = j = k = 0;
 
-        System.out.println("<< Subtração de Vetores >>");
+        System.out.println("\n\n<< Subtração de Vetores >>");
         while (i < 3){
             System.out.printf("Digite o valor %d de A:\n", i+1);
             A[i] = ler.nextInt();
@@ -277,7 +277,7 @@ public class principal {
         int j, k;
         j = k = 0;
 
-        System.out.println("<< Pares e ímpares >>");
+        System.out.println("\n\n<< Pares e ímpares >>");
         for (int i = 0; i < 5; i++){
             System.out.printf("Digite o valor %d:\n", i+1);
             v[i] = ler.nextInt();
@@ -306,7 +306,7 @@ public class principal {
         int soma;
         soma = 0;
 
-        System.out.println("<< Probabilidade >>");
+        System.out.println("\n\n<< Probabilidade >>");
         for (int i = 0; i < 4; i++){
             if (i == 0) System.out.println("Verde:");
             else if (i == 1) System.out.println("Azul:");
@@ -343,7 +343,7 @@ public class principal {
         Scanner ler = new Scanner(System.in);
         int[] vet = new int[5];
 
-        System.out.println("<< Zerando Negativos >>");
+        System.out.println("\n\n<< Zerando Negativos >>");
         for (int i = 0; i < 5; i++){
             System.out.printf("Entre com o número %d:\n", i+1);
             vet[i] = ler.nextInt();
@@ -359,7 +359,7 @@ public class principal {
         Scanner ler = new Scanner(System.in);
         int n;
 
-        System.out.println("<< Universidade X >>\nQuantos alunos serão cadastrados (máx 10000):");
+        System.out.println("\n\n<< Universidade X >>\nQuantos alunos serão cadastrados (máx 10000):");
         n = ler.nextInt();
         System.out.println();
         if (n > 10000) System.out.println("Erro! Quantidade ultrapassa o limite.");
@@ -389,7 +389,7 @@ public class principal {
         int aux = 0;
         int[] repet = new int[4];
 
-        System.out.println("<< Valores iguais >>");
+        System.out.println("\n\n<< Valores iguais >>");
         for (int i = 0; i < 8; i++){
             System.out.printf("Entre com o número %d: \n", i+1);
             vet[i] = ler.nextInt();
@@ -424,7 +424,7 @@ public class principal {
         int[] repet = new int[4];
         int[] conta = new int[4];
 
-        System.out.println("<< Valores iguais >>");
+        System.out.println("\n\n<< Valores iguais >>");
         for (int i = 0; i < 8; i++){
             System.out.printf("Entre com o número %d: \n", i+1);
             vet[i] = ler.nextInt();
@@ -454,21 +454,21 @@ public class principal {
     }
 
     public static void main(String[] args) {
-        //ex01();
-        //ex02();
-        //ex03();
-        //ex04();
-        //ex05();
-        //ex06();
-        //ex07();
-        //ex08();
-        //ex09();
-        //ex10();
-        //ex11();
-        //ex12();
-        //ex13();
-        //ex14();
-        //ex15();
-        //ex16();
+        ex01();
+        ex02();
+        ex03();
+        ex04();
+        ex05();
+        ex06();
+        ex07();
+        ex08();
+        ex09();
+        ex10();
+        ex11();
+        ex12();
+        ex13();
+        ex14();
+        ex15();
+        ex16();
     }
 }
