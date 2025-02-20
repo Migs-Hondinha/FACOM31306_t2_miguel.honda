@@ -18,7 +18,7 @@ public class Main {
         c2.setBens(3127945.12);
         c2.setCargo("Vice-Prefeito");
         c2.setData("25/02/1979");
-        c2.setReeleito("25/02/1979");
+        c2.setReeleito("Não");
         c2.setGenero('M');
         c2.setPartido(11);
 
@@ -30,9 +30,14 @@ public class Main {
         c3.setGenero('M');
         c3.setPartido(25100);
 
-        c1.imprime();
-        c2.imprime();
-        c3.imprime();
+        System.out.printf("\nNome Completo: %s\nData de Nascimento: %s\nGênero: %c\nTotal de Bens: %.2f\n", c1.getNome(), c1.getData(), c1.getGenero(), c1.getBens());
+        System.out.printf("Candidato de Reeleição: %s\nNúmero do Partido: %d\nCargo Pretendido: %s\n", c1.getReeleito(), c1.getPartido(), c1.getCargo());
+
+        System.out.printf("\nNome Completo: %s\nData de Nascimento: %s\nGênero: %c\nTotal de Bens: %.2f\n", c2.getNome(), c2.getData(), c2.getGenero(), c2.getBens());
+        System.out.printf("Candidato de Reeleição: %s\nNúmero do Partido: %d\nCargo Pretendido: %s\n", c2.getReeleito(), c2.getPartido(), c2.getCargo());
+
+        System.out.printf("\nNome Completo: %s\nData de Nascimento: %s\nGênero: %c\nTotal de Bens: %.2f\n", c3.getNome(), c3.getData(), c3.getGenero(), c3.getBens());
+        System.out.printf("Candidato de Reeleição: %s\nNúmero do Partido: %d\nCargo Pretendido: %s\n", c3.getReeleito(), c3.getPartido(), c3.getCargo());
     }
 
     //Matricula 12321BCC010 Código 010 Municipio Abadiânia 5200100
