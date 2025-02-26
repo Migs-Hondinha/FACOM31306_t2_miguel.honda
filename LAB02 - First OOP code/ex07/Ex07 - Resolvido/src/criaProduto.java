@@ -59,13 +59,9 @@ public class criaProduto {
         System.out.println("Produto: " + nome + " Preço: R$ " + preco + " Estoque: " + estoque);
     }
 
-    public int destroiProduto(criaProduto p){
-        if (p == null){
-            return -1;
-        }
-        else {
-            p = null;
-            return 0;
+    public static void destroiProduto(criaProduto[] p, int i){
+        for (int n = 0; n < i; n++){
+            p[i] = null ;
         }
     }
 

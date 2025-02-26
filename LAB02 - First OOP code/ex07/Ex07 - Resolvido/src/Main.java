@@ -23,7 +23,7 @@ public class Main {
         criaProduto[] prod = new criaProduto[4];
 
         criaProduto prodEsp = new criaProduto("especial", 1000000, 1);
-        prodEsp.destroiProduto(prodEsp);
+        prodEsp = null; //destroi produto especial
 
         for (int i = 0; i < 4; i++){
             System.out.println("\nInforme o nome, o preço e a quantidade em estoque do produto " + (i+1) + ":");
@@ -51,9 +51,14 @@ public class Main {
         for(criaProduto p: prod){
             p.imprime();
         }
+        
+        for(int i = 0; i < 4; i++){
+            criaProduto.destroiProduto(prod, 4);
+        }
+
 
         for(criaProduto p: prod){
-            p.destroiProduto(p);
+            p.imprime();
         }
     }
 }
