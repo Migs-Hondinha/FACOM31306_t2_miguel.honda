@@ -51,7 +51,7 @@ public class Main {
         for(criaProduto p: prod){
             p.imprime();
         }
-        
+
         for(int i = 0; i < 4; i++){
             criaProduto.destroiProduto(prod, 4);
         }
