@@ -44,7 +44,7 @@ public class EstudanteMestrado extends EstudantePosGrad{
             );
         }
         else {
-            super.print();
+            super.print(cond);
             System.out.println("EstudanteMestrado{" +
                     "tipo='" + tipo + '\'' +
                     ", tituloDissertacao='" + tituloDissertacao + '\'' +

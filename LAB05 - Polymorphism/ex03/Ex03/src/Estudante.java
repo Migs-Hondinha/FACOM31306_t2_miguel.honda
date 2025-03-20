@@ -30,5 +30,13 @@ public class Estudante {
         this.endereco = endereco;
     }
 
-    public void print(boolean cond){}
+    public void print(boolean cond){
+        if (cond) System.out.println("Estudante{nome=" + nome + " ,endereço=" + endereco + "}");
+        else {
+            System.out.println("Estudante{" +
+                    "nome='" + nome + '\'' +
+                    ", endereco='" + endereco + '\'' +
+                    '}');
+        }
+    }
 }

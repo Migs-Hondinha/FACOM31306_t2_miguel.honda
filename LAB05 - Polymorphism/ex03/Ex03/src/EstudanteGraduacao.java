@@ -29,7 +29,7 @@ public class EstudanteGraduacao extends Estudante {
             );
         }
         else {
-            super.print();
+            super.print(cond);
             System.out.println("EstudanteGraduacao{" +
                     "tituloTCC='" + tituloTCC + '\'' +
                     '}');

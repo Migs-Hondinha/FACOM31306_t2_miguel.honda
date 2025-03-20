@@ -73,3 +73,4 @@ public class Main {
 }
 
 //Respondendo (e): Não, pois não ocorre ligação dinâmica, o que impede a sobrescrita da função print(bool).
+//Como a classe EstudantePosGrad não possui a print(bool), ela não ocorre sobrescrita e o super.print(bool) chama somente o print(bool) da classe Estudante.

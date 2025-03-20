@@ -35,7 +35,7 @@ public class EstudanteDoutorado extends EstudantePosGrad {
             );
         }
         else {
-            super.print();
+            super.print(cond);
             System.out.println("EstudanteDoutorado{" +
                     "tituloTese='" + tituloTese + '\'' +
                     '}');
